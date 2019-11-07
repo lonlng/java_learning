@@ -5,7 +5,6 @@ public class Phone extends AbstractPhone{
 		this.b=new B1();
 		this.c=new C1();
 		this.d=new D1();
-
 	}
 
 	public static void main(String[] args) {
@@ -14,10 +13,7 @@ public class Phone extends AbstractPhone{
 		phone.b.battery();
 		phone.c.CPU();
 		phone.d.display();
-		
-		
-		
-		
+			
 	}
 
 }
