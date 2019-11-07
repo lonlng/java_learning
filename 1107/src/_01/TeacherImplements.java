@@ -1,6 +1,6 @@
 package _01;
 
-public class Client extends teacher implements TeacherInterface{
+public class TeacherImplements extends BaseImplements implements TeacherInterface{
 	
 
 	@Override
@@ -11,12 +11,12 @@ public class Client extends teacher implements TeacherInterface{
 	}
 
 	public static void main(String[] args) {
-		teacher teach = new teacher();
+		BaseImplements teach = new BaseImplements();
 		teach.insert();
 		teach.delete();
 		teach.update();
 		teach.select();
-		Client Cli = new Client();
+		TeacherImplements Cli = new TeacherImplements();
 		Cli.teacher();
 
 	}

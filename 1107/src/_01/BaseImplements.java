@@ -1,6 +1,6 @@
 package _01;
 
-public class teacher implements BaseInterface  {
+public class BaseImplements implements BaseInterface  {
 
 	@Override
 	public void update() {
