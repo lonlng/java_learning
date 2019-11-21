@@ -27,5 +27,4 @@ public class Test {
 			System.out.println(string+":"+map.get(string));
 		}
 	}
-
 }
