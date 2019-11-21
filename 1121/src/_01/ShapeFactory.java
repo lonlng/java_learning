@@ -13,8 +13,9 @@ public class ShapeFactory extends AbstractFactory {
 			return new Square();
 		}else if (ShapeType.equalsIgnoreCase("RECTANGLE")){
 			return new Rectangle();
+		}else {
+			return new Others();
 		}
-		return null;
 	}
 
 	@Override

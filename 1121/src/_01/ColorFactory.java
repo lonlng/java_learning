@@ -19,8 +19,9 @@ public class ColorFactory extends AbstractFactory {
 			return new Green();
 		}else if(ColorType.equalsIgnoreCase("BLUE")){
 			return new Blue();
+		}else {
+			return new Others();
 		}
-		return null;
 
 	}
 	
